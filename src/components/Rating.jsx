@@ -5,9 +5,9 @@ class Rating extends React.Component {
   render() {
     const { rating } = this.props;
     return (
-      <div className="movie-card-rating ">
-        <strong>Rating</strong>
-        <span className="rating ">{rating}</span>
+      <div className="movie-card-rating">
+        <strong className="strong">Rating</strong>
+        <span className="rating">{rating}</span>
       </div>
     );
   }
